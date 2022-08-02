@@ -26,18 +26,33 @@
 <noscript>{{ 'component-cart-notification.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-cart-items.css' | asset_url | stylesheet_tag }}</noscript>
 
+{%- if request.design_mode -%}
+  <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}
+
 <style>
   header-drawer {
     justify-self: start;
     margin-left: -1.2rem;
   }
 
+  {%- if section.settings.enable_transparent_header -%}
+    .header-wrapper {
+      position: absolute;
+      width: 100%;
+    }
+
+    .content-for-layout .shopify-section:not(.full-section):first-child {
+      margin-top: 80px;
+    }
+  {%- endif -%}
+
   .header__heading-logo {
     max-width: {{ section.settings.logo_width }}px;
   }
 
-  .section-header:not(.scrolled-past-header) .header-wrapper--transparent:not(:hover):not(:focus-within) .header__icon,
-  .section-header:not(.scrolled-past-header) .header-wrapper--transparent:not(:hover):not(:focus-within) .header__menu-item {
+  .section-header:not(.scrolled-past-header) .header-wrapper--transparent-color:not(:hover):not(:focus-within) .header__icon,
+  .section-header:not(.scrolled-past-header) .header-wrapper--transparent-color:not(:hover):not(:focus-within) .header__menu-item {
     color: {{ section.settings.transparent_text_color }};
   }
 
@@ -629,6 +644,9 @@
     connectedCallback() {
       this.header = document.getElementById('shopify-section-header');
       this.headerBounds = {};
+
+      const firstSection = document.querySelector('#MainContent section');
+      this.classList.toggle('header-wrapper--transparent-color', firstSection.classList.contains('full-section'));
 
       if (this.getAttribute('data-sticky-type') === 'always') {
         this.header.classList.add('shopify-section-header-sticky');

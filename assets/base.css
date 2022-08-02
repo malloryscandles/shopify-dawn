@@ -2213,28 +2213,22 @@ input[type='checkbox'] {
 .header-wrapper {
   display: block;
   position: relative;
-  background-color: rgb(var(--color-background));
 }
 
-.header-wrapper--transparent {
-  transition: background var(--duration-short) ease-in;
+.header-wrapper--transparent-color {
+  transition: background var(--duration-short) ease-in, color var(--duration-short) ease-in;
 }
 
-.header-wrapper--transparent {
-  position: absolute;
-  width: 100%;
-}
-
-.section-header:not(.scrolled-past-header) .header-wrapper--transparent.gradient:not(:hover):not(:focus-within) {
+.section-header:not(.scrolled-past-header) .header-wrapper--transparent-color.gradient:not(:hover):not(:focus-within) {
   background: transparent;
 }
 
-.section-header:not(.scrolled-past-header) .header-wrapper--transparent:not(:hover):not(:focus-within) .header__heading-logo--transparent {
+.section-header:not(.scrolled-past-header) .header-wrapper--transparent-color:not(:hover):not(:focus-within) .header__heading-logo--transparent {
   display: block;
 }
 
 .header__heading-logo--transparent,
-.section-header:not(.scrolled-past-header) .header-wrapper--transparent:not(:hover):not(:focus-within) .header__heading-logo:not(.header__heading-logo--transparent) {
+.section-header:not(.scrolled-past-header) .header-wrapper--transparent-color:not(:hover):not(:focus-within) .header__heading-logo:not(.header__heading-logo--transparent) {
   display: none;
 }
 
