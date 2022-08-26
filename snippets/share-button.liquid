@@ -1,0 +1,53 @@
+{% comment %}
+    Renders a share button
+
+    Accepts:
+    - label: {String} Share button label
+    - link: {String} URL to display and copy
+    - block_attributes: Editor block attributes if not present on parent element
+
+    Usage:
+    {% render 'product-variant-picker', label: 'Share', link: 'http://www.shopify.com', block_attributes: block.shopify_attributes %}
+{% endcomment %}
+
+<script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
+<share-button
+  id="Share-{{ section.id }}"
+  class="share-button quick-add-hidden"
+  {{ block_attributes }}
+>
+  <button class="share-button__button hidden">
+    {% render 'icon-share' %}
+    {{ label | escape }}
+  </button>
+  <details id="Details-{{ block.id }}-{{ section.id }}">
+    <summary class="share-button__button">
+      {% render 'icon-share' %}
+      {{ label | escape }}
+    </summary>
+    <div id="Fallback-share-{{ section.id }}" class="share-button__fallback motion-reduce">
+      <div class="field">
+        <span id="ShareMessage-{{ section.id }}" class="share-button__message hidden" role="status">
+        </span>
+        <input
+          type="text"
+          class="field__input"
+          id="url"
+          value="{{ link }}"
+          placeholder="{{ 'general.share.share_url' | t }}"
+          onclick="this.select();"
+          readonly
+        >
+        <label class="field__label" for="url">{{ 'general.share.share_url' | t }}</label>
+      </div>
+      <button class="share-button__close hidden no-js-hidden">
+        {% render 'icon-close' %}
+        <span class="visually-hidden">{{ 'general.share.close' | t }}</span>
+      </button>
+      <button class="share-button__copy no-js-hidden">
+        {% render 'icon-clipboard' %}
+        <span class="visually-hidden">{{ 'general.share.copy_to_clipboard' | t }}</span>
+      </button>
+    </div>
+  </details>
+</share-button>
