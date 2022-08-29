@@ -26,35 +26,45 @@
 <noscript>{{ 'component-cart-notification.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-cart-items.css' | asset_url | stylesheet_tag }}</noscript>
 
-{%- if request.design_mode -%}
-  <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
-{%- endif -%}
-
 <style>
   header-drawer {
     justify-self: start;
     margin-left: -1.2rem;
   }
 
-  {%- if section.settings.enable_transparent_header -%}
-    .header-wrapper {
-      position: absolute;
-      width: 100%;
-    }
-
-    .content-for-layout .shopify-section:not(.full-section):first-child {
-      margin-top: 80px;
-    }
-  {%- endif -%}
-
   .header__heading-logo {
     max-width: {{ section.settings.logo_width }}px;
   }
 
-  .section-header:not(.scrolled-past-header) .header-wrapper--transparent-color:not(:hover):not(:focus-within) .header__icon,
-  .section-header:not(.scrolled-past-header) .header-wrapper--transparent-color:not(:hover):not(:focus-within) .header__menu-item {
-    color: {{ section.settings.transparent_text_color }};
-  }
+  {% if section.settings.enable_transparent_header_home and request.page_type == 'index'
+     or section.settings.enable_transparent_header_page and request.page_type == 'page'
+     or section.settings.enable_transparent_header_collection and request.page_type == 'collection'
+     or section.settings.enable_transparent_header_blog and request.page_type == 'blog' or request.page_type == 'article'
+  %}
+    .header-wrapper {
+      position: absolute;
+      width: 100%;
+      transition: background var(--duration-short) ease-in, color var(--duration-short) ease-in;
+    }
+    
+    .section-header:not(.scrolled-past-header) .header-wrapper.gradient:not(:hover):not(:focus-within) {
+      background: transparent;
+    }
+    
+    .section-header:not(.scrolled-past-header) .header-wrapper:not(:hover):not(:focus-within) .header__heading-logo--transparent {
+      display: block;
+    }
+    
+    .header__heading-logo--transparent,
+    .section-header:not(.scrolled-past-header) .header-wrapper:not(:hover):not(:focus-within) .header__heading-logo:not(.header__heading-logo--transparent) {
+      display: none;
+    }
+    
+    .section-header:not(.scrolled-past-header) .header-wrapper:not(:hover):not(:focus-within) .header__icon,
+    .section-header:not(.scrolled-past-header) .header-wrapper:not(:hover):not(:focus-within) .header__menu-item {
+      color: {{ section.settings.transparent_text_color }};
+    }
+  {% endif %}
 
   @media screen and (min-width: 990px) {
     header-drawer {
@@ -142,8 +152,9 @@
     <path d="M.865 15.978a.5.5 0 00.707.707l7.433-7.431 7.579 7.282a.501.501 0 00.846-.37.5.5 0 00-.153-.351L9.712 8.546l7.417-7.416a.5.5 0 10-.707-.708L8.991 7.853 1.413.573a.5.5 0 10-.693.72l7.563 7.268-7.418 7.417z" fill="currentColor">
   </symbol>
 </svg>
-<{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}{% if section.settings.enable_transparent_header %} header-wrapper--transparent{% endif %}">
+<{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
   <header class="header header--{{ section.settings.logo_position }} header--{{ section.settings.reduce_logo_scroll }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %}">
+    {{ request.page_type }} {{ section.settings.enable_transparent_header_page }}
     {%- if section.settings.menu != blank -%}
       <header-drawer data-breakpoint="tablet">
         <details id="Details-menu-drawer-container" class="menu-drawer-container">
@@ -645,9 +656,6 @@
       this.header = document.getElementById('shopify-section-header');
       this.headerBounds = {};
 
-      const firstSection = document.querySelector('#MainContent section');
-      this.classList.toggle('header-wrapper--transparent-color', firstSection.classList.contains('full-section'));
-
       if (this.getAttribute('data-sticky-type') === 'always') {
         this.header.classList.add('shopify-section-header-sticky');
       } 
@@ -926,9 +934,27 @@
     },
     {
       "type": "checkbox",
-      "id": "enable_transparent_header",
+      "id": "enable_transparent_header_home",
       "default": false,
-      "label": "t:sections.header.settings.enable_transparent_header.label"
+      "label": "Enable on Homepage"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_transparent_header_collection",
+      "default": false,
+      "label": "Enable on Collections"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_transparent_header_page",
+      "default": false,
+      "label": "Enable on Pages"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_transparent_header_blog",
+      "default": false,
+      "label": "Enable on Blog posts"
     },
     {
       "type": "image_picker",
