@@ -14,10 +14,10 @@
   <div>
     <div>
       <h2>{{ 'customer.order.title' | t: name: order.name }}</h2>
-      {%- assign order_date = order.created_at | time_tag: format: "date_at_time" -%}
+      {%- assign order_date = order.created_at | time_tag: format: 'date_at_time' -%}
       <p>{{ 'customer.order.date_html' | t: date: order_date }}</p>
       {%- if order.cancelled -%}
-        {%- assign cancelled_at = order.cancelled_at | time_tag: format: "date_at_time" -%}
+        {%- assign cancelled_at = order.cancelled_at | time_tag: format: 'date_at_time' -%}
         <p>{{ 'customer.order.cancelled_html' | t: date: cancelled_at }}</p>
         <p>{{ 'customer.order.cancelled_reason' | t: reason: order.cancel_reason_label }}</p>
       {%- endif -%}
@@ -52,14 +52,14 @@
                     <p>{{ line_item.title }}</p>
                   {%- endif -%}
                   {%- assign property_size = line_item.properties | size -%}
-                  {%- unless line_item.selling_plan_allocation == nil and property_size == 0 -%}
+                  {%- unless line_item.selling_plan_allocation == null and property_size == 0 -%}
                     <div class="properties">
                       {%- unless line_item.product.has_only_default_variant -%}
                         <span>
                           {{ line_item.variant.title }}
                         </span>
                       {%- endunless -%}
-                      {%- unless line_item.selling_plan_allocation == nil -%}
+                      {%- unless line_item.selling_plan_allocation == null -%}
                         <span>
                           {{ line_item.selling_plan_allocation.selling_plan.name }}
                         </span>
