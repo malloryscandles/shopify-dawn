@@ -70,7 +70,7 @@
 </noscript>
 
 <modal-opener class="product__modal-opener product__modal-opener--{{ media.media_type }} no-js-hidden" data-modal="#ProductModal-{{ modal_id }}">
-  {%- if section.settings.image_zoom != 'none' %}
+  {%- if section.settings.image_zoom == 'lightbox' %}
     <span class="product__media-icon motion-reduce quick-add-hidden" aria-hidden="true">
       {%- liquid
         case media.media_type
