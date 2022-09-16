@@ -61,12 +61,12 @@
     }
   {% endif %}
 
+  .header__heading-logo--transparent,
+  .section-header:not(.scrolled-past-header) .header-wrapper:not(:hover):not(:focus-within) .header__heading-logo:not(.header__heading-logo--transparent) {
+    display: none;
+  }
+  
   @media screen and (min-width: 990px) {
-    .header__heading-logo--transparent,
-    .section-header:not(.scrolled-past-header) .header-wrapper:not(:hover):not(:focus-within) .header__heading-logo:not(.header__heading-logo--transparent) {
-      display: none;
-    }
-    
     header-drawer {
       display: none;
     }
