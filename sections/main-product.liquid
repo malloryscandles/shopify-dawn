@@ -1032,6 +1032,7 @@
           endif
         -%}
 
+        <script src="{{ 'magnify.js' | asset_url }}" defer="defer"></script>
         {%- for media in product.media -%}
           {%- liquid
             if section.settings.hide_variants and variant_images contains media.src
