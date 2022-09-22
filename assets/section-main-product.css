@@ -1142,14 +1142,12 @@ a.product__text {
   border-color: rgb(var(--color-foreground));
 }
 
-.img-magnifier-glass {
-  position: absolute;
+.image--full-size {
   cursor: zoom-out;
   z-index: 1;
-  border: 1px solid black;
 }
 
-.image--zoom {
+.image--original {
   cursor: zoom-in;
 }
 
