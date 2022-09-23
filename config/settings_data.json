@@ -179,12 +179,20 @@
               "heading": "",
               "menu": "quick-links"
             }
+          },
+          "f06879eb-698a-491f-ab38-335f68eae5af": {
+            "type": "text",
+            "settings": {
+              "heading": "",
+              "subtext": "<p>6126 Brookshire Blvd, Suite E<br\/>Charlotte, NC 2821<\/p><p>(980) 320-0769<\/p><p>michael@malloryscandles.com<\/p>"
+            }
           }
         },
         "block_order": [
           "footer-0",
           "footer-1",
-          "3be5a94a-3bf5-4d2a-a85c-f4867202704d"
+          "3be5a94a-3bf5-4d2a-a85c-f4867202704d",
+          "f06879eb-698a-491f-ab38-335f68eae5af"
         ],
         "settings": {
           "color_scheme": "background-2",
