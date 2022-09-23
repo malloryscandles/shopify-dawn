@@ -202,6 +202,7 @@
     },
     "video": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -209,6 +210,46 @@
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16638996730be8b067": {
+      "type": "collection-list",
+      "blocks": {
+        "16638996733b2c2c12-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "boykin-spaniel-rescue"
+          }
+        },
+        "16638996733b2c2c12-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "samaritan-house"
+          }
+        },
+        "16638996733b2c2c12-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "women-who-lead"
+          }
+        }
+      },
+      "block_order": [
+        "16638996733b2c2c12-0",
+        "16638996733b2c2c12-1",
+        "16638996733b2c2c12-2"
+      ],
+      "settings": {
+        "title": "Fundraisers",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -220,6 +261,7 @@
     "rich_text",
     "featured_collection",
     "collage",
-    "video"
+    "video",
+    "16638996730be8b067"
   ]
 }
