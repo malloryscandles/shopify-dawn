@@ -161,41 +161,41 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
+              "heading": "",
+              "menu": "about-us"
             }
           },
           "footer-1": {
             "type": "link_list",
             "settings": {
-              "heading": "Info",
-              "menu": "footer"
+              "heading": "",
+              "menu": "policies"
             }
           },
-          "footer-2": {
-            "type": "text",
+          "3be5a94a-3bf5-4d2a-a85c-f4867202704d": {
+            "type": "link_list",
             "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "",
+              "menu": "quick-links"
             }
           }
         },
         "block_order": [
           "footer-0",
           "footer-1",
-          "footer-2"
+          "3be5a94a-3bf5-4d2a-a85c-f4867202704d"
         ],
         "settings": {
-          "color_scheme": "background-1",
-          "newsletter_enable": true,
+          "color_scheme": "background-2",
+          "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
-          "payment_enable": true,
+          "payment_enable": false,
           "margin_top": 48,
-          "padding_top": 36,
-          "padding_bottom": 36
+          "padding_top": 0,
+          "padding_bottom": 0
         }
       },
       "main-password-header": {
