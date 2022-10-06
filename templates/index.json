@@ -23,7 +23,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/100-percent-guarantee.jpg",
-            "title": "",
+            "title": "Your Satisfaction is guaranteed. Period.",
             "text": "",
             "link_label": "",
             "link": ""
@@ -33,7 +33,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Earth-Friendly.jpg",
-            "title": "",
+            "title": "Earth Friendly. Sustainably Sourced.",
             "text": "",
             "link_label": "",
             "link": ""
@@ -43,7 +43,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Candle-Making.jpg",
-            "title": "",
+            "title": "Make Your Own Candle",
             "text": "",
             "link_label": "",
             "link": ""
