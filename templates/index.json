@@ -42,8 +42,7 @@
         "column3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Candle-Making.jpg",
-            "title": "Make Your Own Candle",
+            "title": "Handpoured in the USA.",
             "text": "",
             "link_label": "",
             "link": ""
