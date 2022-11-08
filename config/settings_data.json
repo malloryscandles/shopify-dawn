@@ -126,7 +126,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "Shipping Notice: Orders placed after Noon on Thursday, November 3rd, will be shipped after Tuesday, November 22nd.  We will not be shipping orders from November 4th to November 21st.   Orders will continued be accepted via our website during this time.",
               "text_alignment": "center",
               "color_scheme": "accent-1",
               "link": ""
@@ -227,6 +227,12 @@
     "blocks": {
       "3720565183479497137": {
         "type": "shopify:\/\/apps\/globo-product-options-variant\/blocks\/app-embed-block\/fdc9fad5-1a0f-4bd4-9c8a-1af6a6eef6b8",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {
         }
