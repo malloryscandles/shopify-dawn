@@ -33,7 +33,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Earth-Friendly.jpg",
-            "title": "Earth Friendly. Sustainably Sourced.",
+            "title": "Sustainably Sourced.",
             "text": "",
             "link_label": "",
             "link": ""
@@ -42,6 +42,7 @@
         "column3": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Candle-Making.jpg",
             "title": "Handpoured in the USA.",
             "text": "",
             "link_label": "",
