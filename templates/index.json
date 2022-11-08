@@ -99,40 +99,49 @@
         "padding_bottom": 36
       }
     },
-    "collage": {
-      "type": "collage",
+    "19363387-344d-43df-ba8a-aaf9123d1f81": {
+      "type": "collection-list",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "template--15869844160690__19363387-344d-43df-ba8a-aaf9123d1f81-166795058012057109-0": {
+          "type": "featured_collection",
           "settings": {
             "collection": "classic-candles"
           }
         },
-        "4b4536f0-f3b4-41c3-b1b1-6515df7ef372": {
-          "type": "collection",
+        "template--15869844160690__19363387-344d-43df-ba8a-aaf9123d1f81-166795058012057109-1": {
+          "type": "featured_collection",
           "settings": {
             "collection": "diffuser-oils"
           }
         },
-        "4caafb92-da95-4d80-8c26-e860d3459953": {
-          "type": "collection",
+        "template--15869844160690__19363387-344d-43df-ba8a-aaf9123d1f81-166795058012057109-2": {
+          "type": "featured_collection",
           "settings": {
             "collection": "reed-diffusers"
+          }
+        },
+        "63bcc676-b801-4931-b09c-62c8fc9f0ce0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "smart-sassy-candles"
           }
         }
       },
       "block_order": [
-        "collection-0",
-        "4b4536f0-f3b4-41c3-b1b1-6515df7ef372",
-        "4caafb92-da95-4d80-8c26-e860d3459953"
+        "template--15869844160690__19363387-344d-43df-ba8a-aaf9123d1f81-166795058012057109-0",
+        "template--15869844160690__19363387-344d-43df-ba8a-aaf9123d1f81-166795058012057109-1",
+        "template--15869844160690__19363387-344d-43df-ba8a-aaf9123d1f81-166795058012057109-2",
+        "63bcc676-b801-4931-b09c-62c8fc9f0ce0"
       ],
       "settings": {
-        "heading": "Candles, Oils & More...",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
+        "title": "Product Collections",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 4,
         "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -247,7 +256,7 @@
     "image_banner",
     "multicolumn",
     "featured_collection",
-    "collage",
+    "19363387-344d-43df-ba8a-aaf9123d1f81",
     "video",
     "1663900290a20ee6e7",
     "16638996730be8b067"
