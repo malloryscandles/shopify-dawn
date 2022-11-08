@@ -214,12 +214,43 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "5ac0da1b-8d73-451c-a212-b47bc9a0aaca": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15869844652210__5ac0da1b-8d73-451c-a212-b47bc9a0aaca-166795105901596a7f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>About Our Candles<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--15869844652210__5ac0da1b-8d73-451c-a212-b47bc9a0aaca-166795105901596a7f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We start with American grown natural soy beans for our wax which is vegan, eco-friendly, and sustainably produced. Use an organic cotton wick for a clean burning flame that produces a perfectly even-burning candle filling your room with a uniquely curated scent. <\/p><p>Small Batch crafted in the USA free of paraffin, sulfates, phthalates, and color making this an incredible clean candle. <\/p><p>And because we believe our customers deserve perfect products, we make these same candles without animal testing, paraffin or any other bad stuff.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15869844652210__5ac0da1b-8d73-451c-a212-b47bc9a0aaca-166795105901596a7f-0",
+        "template--15869844652210__5ac0da1b-8d73-451c-a212-b47bc9a0aaca-166795105901596a7f-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "image-with-text",
     "multicolumn",
-    "product-recommendations"
+    "product-recommendations",
+    "5ac0da1b-8d73-451c-a212-b47bc9a0aaca"
   ]
 }
