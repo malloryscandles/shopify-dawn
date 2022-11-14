@@ -68,11 +68,34 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "a7e51768-d18d-48c1-a425-a9037803ae8e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15963988066482__a7e51768-d18d-48c1-a425-a9037803ae8e-1668427519fe9ba5ad-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>After click the button, you'll be returned to our Home Page.  Shop Away.   Check your Cart during Checkout to ensure the Code is applied.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15963988066482__a7e51768-d18d-48c1-a425-a9037803ae8e-1668427519fe9ba5ad-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "ddd163e8-2057-471a-8f5d-6e2d41f7502b"
+    "ddd163e8-2057-471a-8f5d-6e2d41f7502b",
+    "a7e51768-d18d-48c1-a425-a9037803ae8e"
   ]
 }
