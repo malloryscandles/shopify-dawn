@@ -16,6 +16,36 @@
         "show_text_below": false
       }
     },
+    "cfaafcba-1b08-4523-a7da-12ac9324eff9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15869844160690__cfaafcba-1b08-4523-a7da-12ac9324eff9-16684297021e3c850f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>SHIPPING NOTICE<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--15869844160690__cfaafcba-1b08-4523-a7da-12ac9324eff9-16684297021e3c850f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Orders placed after Noon on Thursday, November 3rd, will be shipped after Tuesday, November 22nd.  We will not be shipping orders from November 4th to November 21st.   Orders will continued be accepted via our website during this time.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15869844160690__cfaafcba-1b08-4523-a7da-12ac9324eff9-16684297021e3c850f-0",
+        "template--15869844160690__cfaafcba-1b08-4523-a7da-12ac9324eff9-16684297021e3c850f-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -240,6 +270,7 @@
   },
   "order": [
     "image_banner",
+    "cfaafcba-1b08-4523-a7da-12ac9324eff9",
     "multicolumn",
     "featured_collection",
     "19363387-344d-43df-ba8a-aaf9123d1f81",
