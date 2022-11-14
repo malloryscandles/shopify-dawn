@@ -40,13 +40,13 @@
         "template--15963988066482__ddd163e8-2057-471a-8f5d-6e2d41f7502b-1668427519fe9ba5ad-1": {
           "type": "text",
           "settings": {
-            "text": "<p>All purchases from the Mallory Candle Co website go to support the Band. <\/p><p><\/p><p>Use promo code \"<strong>KINGSTON<\/strong>\" during checkout.   Or, click the button below for it to automatically be added during your checkout.  <\/p><p><\/p><p>This code must be used during checkout for the Kingston High School Band to get credit.  Unfortunately, we are unable to retroactively apply this code. <\/p>"
+            "text": "<p>Every purchase from the Mallory Candle Co helps support our wonderful young adults and the great music they make.  From the top of the picolos to the bottom of the bass drums, we thank you so very much for your support!<\/p><p><\/p><p>Use promo code \"<strong>KINGSTON<\/strong>\" during checkout.   Or, click the button below for it to automatically be added during your checkout.  <\/p><p><\/p><p>This code must be used during checkout for the Kingston High School Band to get credit.  Unfortunately, we are unable to retroactively apply this code. <\/p>"
           }
         },
         "template--15963988066482__ddd163e8-2057-471a-8f5d-6e2d41f7502b-1668427519fe9ba5ad-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "SUPPORT THE BAND!",
             "button_link": "",
             "button_style_secondary": false,
             "button_label_2": "",
