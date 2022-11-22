@@ -132,10 +132,20 @@
               "color_scheme": "accent-1",
               "link": ""
             }
+          },
+          "765388c6-6bfe-4e7f-9bc1-c58a298cf15d": {
+            "type": "announcement",
+            "settings": {
+              "text": "Everything Ships for $6.  Free Shipping for Orders over $100.",
+              "text_alignment": "center",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "765388c6-6bfe-4e7f-9bc1-c58a298cf15d"
         ],
         "settings": {
         }
