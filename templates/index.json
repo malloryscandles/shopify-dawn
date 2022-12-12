@@ -18,7 +18,6 @@
     },
     "cfaafcba-1b08-4523-a7da-12ac9324eff9": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--15869844160690__cfaafcba-1b08-4523-a7da-12ac9324eff9-16684297021e3c850f-0": {
           "type": "heading",
@@ -30,7 +29,7 @@
         "template--15869844160690__cfaafcba-1b08-4523-a7da-12ac9324eff9-16684297021e3c850f-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Orders placed after Noon on Thursday, November 3rd, will be shipped after Tuesday, November 22nd.  We will not be shipping orders from November 4th to November 21st.   Orders will continued be accepted via our website during this time.<\/p>"
+            "text": "<p>Orders will be shipped after December 19, 2023<\/p>"
           }
         }
       },

@@ -125,9 +125,8 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Shipping Notice: Orders placed after Noon on Thursday, November 3rd, will be shipped after Tuesday, November 22nd.  We will not be shipping orders from November 4th to November 21st.   Orders will continued be accepted via our website during this time.",
+              "text": "Shipping Notice: Orders will be shipped after December 19, 2023.",
               "text_alignment": "center",
               "color_scheme": "accent-1",
               "link": ""
