@@ -155,19 +155,26 @@
           "settings": {
             "collection": "smart-sassy-candles"
           }
+        },
+        "6ed7c02b-c785-4988-8b55-8d677167cff9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wax-melts"
+          }
         }
       },
       "block_order": [
         "template--15869844160690__19363387-344d-43df-ba8a-aaf9123d1f81-166795058012057109-0",
         "template--15869844160690__19363387-344d-43df-ba8a-aaf9123d1f81-166795058012057109-1",
         "template--15869844160690__19363387-344d-43df-ba8a-aaf9123d1f81-166795058012057109-2",
-        "63bcc676-b801-4931-b09c-62c8fc9f0ce0"
+        "63bcc676-b801-4931-b09c-62c8fc9f0ce0",
+        "6ed7c02b-c785-4988-8b55-8d677167cff9"
       ],
       "settings": {
         "title": "Product Collections",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "1",
