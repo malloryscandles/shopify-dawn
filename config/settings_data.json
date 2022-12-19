@@ -125,6 +125,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Shipping Notice: Orders will be shipped after December 19, 2023.",
               "text_alignment": "center",
