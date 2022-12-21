@@ -2,7 +2,6 @@
   "sections": {
     "e474f29c-17fa-4c63-8810-6f90bcd216f9": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--15869844717746__e474f29c-17fa-4c63-8810-6f90bcd216f9-1668100108dd1fe79c-0": {
           "type": "heading",
@@ -14,7 +13,7 @@
         "template--15869844717746__e474f29c-17fa-4c63-8810-6f90bcd216f9-1668100108dd1fe79c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Orders will be shipped after December 19, 2023.<\/p>"
+            "text": "<p>Orders will be shipped after December 26, 2023.<\/p>"
           }
         }
       },
