@@ -105,6 +105,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Fall Favorites",
         "heading_size": "h1",
