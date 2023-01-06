@@ -8,6 +8,113 @@
         "color_scheme": "background-1"
       }
     },
+    "b78b0e13-71f2-4c32-8f1a-157a37a3f793": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16003968368818__b78b0e13-71f2-4c32-8f1a-157a37a3f793-16727949042cd0aabb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>UPCOMING CANDLE MAKING PARTIES<\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16003968368818__b78b0e13-71f2-4c32-8f1a-157a37a3f793-16727949042cd0aabb-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "2f80eb13-8bc9-4f0a-ba59-c75ba9e87b1e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16003968368818__2f80eb13-8bc9-4f0a-ba59-c75ba9e87b1e-16727949042cd0aabb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Red Clay Ciderworks<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--16003968368818__2f80eb13-8bc9-4f0a-ba59-c75ba9e87b1e-16727949042cd0aabb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sunday, January 22, 2023<br\/>2:00 PM<br\/>245 Clanton Road, Charlotte, NC 28217<\/p>"
+          }
+        },
+        "template--16003968368818__2f80eb13-8bc9-4f0a-ba59-c75ba9e87b1e-16727949042cd0aabb-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Ticket",
+            "button_link": "https:\/\/Candle-Making-Jan22.eventbrite.com",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16003968368818__2f80eb13-8bc9-4f0a-ba59-c75ba9e87b1e-16727949042cd0aabb-0",
+        "template--16003968368818__2f80eb13-8bc9-4f0a-ba59-c75ba9e87b1e-16727949042cd0aabb-1",
+        "template--16003968368818__2f80eb13-8bc9-4f0a-ba59-c75ba9e87b1e-16727949042cd0aabb-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "366800a9-42b1-4aca-8af5-cfaf467856ea": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16003968368818__366800a9-42b1-4aca-8af5-cfaf467856ea-16727949042cd0aabb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Illuminations Wines<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--16003968368818__366800a9-42b1-4aca-8af5-cfaf467856ea-16727949042cd0aabb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sunday, February 5, 2023<br\/>6:00 PM<br\/>201 Spring Street, Fort Mill, SC 29715<\/p>"
+          }
+        },
+        "template--16003968368818__366800a9-42b1-4aca-8af5-cfaf467856ea-16727949042cd0aabb-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy Ticket",
+            "button_link": "https:\/\/candle-making-feb-5.eventbrite.com",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16003968368818__366800a9-42b1-4aca-8af5-cfaf467856ea-16727949042cd0aabb-0",
+        "template--16003968368818__366800a9-42b1-4aca-8af5-cfaf467856ea-16727949042cd0aabb-1",
+        "template--16003968368818__366800a9-42b1-4aca-8af5-cfaf467856ea-16727949042cd0aabb-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -29,6 +136,9 @@
   },
   "order": [
     "banner",
+    "b78b0e13-71f2-4c32-8f1a-157a37a3f793",
+    "2f80eb13-8bc9-4f0a-ba59-c75ba9e87b1e",
+    "366800a9-42b1-4aca-8af5-cfaf467856ea",
     "product-grid"
   ]
 }
