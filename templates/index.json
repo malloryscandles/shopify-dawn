@@ -216,9 +216,9 @@
         "166390029098d2edb6-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/CandleMaking.1000x400_1200x_2f414575-cc54-460c-8d37-6a1a55a9a8ec.jpg",
+        "image": "shopify:\/\/shop_images\/candle-making-600x600.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
