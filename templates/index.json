@@ -16,6 +16,36 @@
         "show_text_below": false
       }
     },
+    "7b683fe9-585e-4abc-b775-a532234ab983": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15869844160690__7b683fe9-585e-4abc-b775-a532234ab983-1673579957dfc5116b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>BUNDLE & SAVE 15%<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--15869844160690__7b683fe9-585e-4abc-b775-a532234ab983-1673579957dfc5116b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Buy any 3 products and save 15%<br\/>Use code BUNDLE at checkout<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15869844160690__7b683fe9-585e-4abc-b775-a532234ab983-1673579957dfc5116b-0",
+        "template--15869844160690__7b683fe9-585e-4abc-b775-a532234ab983-1673579957dfc5116b-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "cfaafcba-1b08-4523-a7da-12ac9324eff9": {
       "type": "rich-text",
       "disabled": true,
@@ -287,6 +317,7 @@
   },
   "order": [
     "image_banner",
+    "7b683fe9-585e-4abc-b775-a532234ab983",
     "cfaafcba-1b08-4523-a7da-12ac9324eff9",
     "multicolumn",
     "featured_collection",
