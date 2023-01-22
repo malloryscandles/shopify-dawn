@@ -10,6 +10,7 @@
     },
     "b78b0e13-71f2-4c32-8f1a-157a37a3f793": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--16003968368818__b78b0e13-71f2-4c32-8f1a-157a37a3f793-16727949042cd0aabb-0": {
           "type": "heading",
@@ -33,6 +34,7 @@
     },
     "2f80eb13-8bc9-4f0a-ba59-c75ba9e87b1e": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--16003968368818__2f80eb13-8bc9-4f0a-ba59-c75ba9e87b1e-16727949042cd0aabb-0": {
           "type": "heading",
@@ -75,6 +77,7 @@
     },
     "366800a9-42b1-4aca-8af5-cfaf467856ea": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--16003968368818__366800a9-42b1-4aca-8af5-cfaf467856ea-16727949042cd0aabb-0": {
           "type": "heading",
@@ -113,6 +116,57 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "de01d43b-9a5c-4f3a-8152-2aef90d66418": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16003968368818__de01d43b-9a5c-4f3a-8152-2aef90d66418-1674387201245907a2-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "January 22 - Red Clay Ciderworks",
+            "icon": "star",
+            "row_content": "<p>Sunday, January 22, 2023<br\/>2:00 PM - 4:00 PM<br\/>245 Clanton Road, Charlotte, NC 28217<\/p><p><strong>&gt;&gt;&gt;  <\/strong><a href=\"https:\/\/Candle-Making-Jan22.eventbrite.com\" target=\"_blank\" title=\"https:\/\/Candle-Making-Jan22.eventbrite.com\"><strong>CLICK HERE TO RESERVE MY SPOT<\/strong><\/a><strong> &lt;&lt;&lt;<\/strong><\/p>",
+            "page": ""
+          }
+        },
+        "template--16003968368818__de01d43b-9a5c-4f3a-8152-2aef90d66418-1674387201245907a2-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "February 5 - Illumination Wines",
+            "icon": "star",
+            "row_content": "<p>*** SOLD OUT - JOIN THE WAIT LIST ***<br\/>Sunday, February 5, 2023<br\/>3:00 PM - 5:00 PM<br\/>201 Spring Street, Fort Mill, SC 29715<\/p><p>&gt;&gt;&gt; <a href=\"https:\/\/candle-making-feb-5.eventbrite.com\" title=\"https:\/\/candle-making-feb-5.eventbrite.com\">CLICK HERE TO RESERVE MY SPOT<\/a> &lt;&lt;&lt;<\/p>",
+            "page": ""
+          }
+        },
+        "template--16003968368818__de01d43b-9a5c-4f3a-8152-2aef90d66418-1674387201245907a2-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "February 12 - Red Clay Ciderworks",
+            "icon": "star",
+            "row_content": "<p>Sunday, January 22, 2023<br\/>2:00 PM - 4:00 PM<br\/>245 Clanton Road, Charlotte, NC 28217<\/p><p>&gt;&gt;&gt; COMING SOON &lt;&lt;&lt;<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16003968368818__de01d43b-9a5c-4f3a-8152-2aef90d66418-1674387201245907a2-0",
+        "template--16003968368818__de01d43b-9a5c-4f3a-8152-2aef90d66418-1674387201245907a2-1",
+        "template--16003968368818__de01d43b-9a5c-4f3a-8152-2aef90d66418-1674387201245907a2-2"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Upcoming Candle Making Workshops",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "5e8c1150-be6a-40b8-8f71-743a0aa28ef6": {
@@ -159,67 +213,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "de01d43b-9a5c-4f3a-8152-2aef90d66418": {
-      "type": "collapsible-content",
-      "blocks": {
-        "template--16003968368818__de01d43b-9a5c-4f3a-8152-2aef90d66418-1674387201245907a2-0": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "January 22 - Red Clay Ciderworks",
-            "icon": "star",
-            "row_content": "<p>Sunday, January 22, 2023<br\/>2:00 PM - 4:00 PM<br\/>245 Clanton Road, Charlotte, NC 28217<\/p><p><strong>&gt;&gt;&gt;  <\/strong><a href=\"https:\/\/Candle-Making-Jan22.eventbrite.com\" target=\"_blank\" title=\"https:\/\/Candle-Making-Jan22.eventbrite.com\"><strong>CLICK HERE TO RESERVE MY SPOT<\/strong><\/a><strong> &lt;&lt;&lt;<\/strong><\/p>",
-            "page": ""
-          }
-        },
-        "template--16003968368818__de01d43b-9a5c-4f3a-8152-2aef90d66418-1674387201245907a2-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "February 5 - Illumination Wines",
-            "icon": "star",
-            "row_content": "<p>*** SOLD OUT - JOIN THE WAIT LIST ***<br\/>Sunday, February 5, 2023<br\/>3:00 PM - 5:00 PM<br\/>201 Spring Street, Fort Mill, SC 29715<\/p><p>&gt;&gt;&gt; <a href=\"https:\/\/candle-making-feb-5.eventbrite.com\" title=\"https:\/\/candle-making-feb-5.eventbrite.com\">CLICK HERE TO RESERVE MY SPOT<\/a> &lt;&lt;&lt;<\/p>",
-            "page": ""
-          }
-        },
-        "template--16003968368818__de01d43b-9a5c-4f3a-8152-2aef90d66418-1674387201245907a2-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "February 12 - Red Clay Ciderworks",
-            "icon": "star",
-            "row_content": "<p>Sunday, January 22, 2023<br\/>2:00 PM - 4:00 PM<br\/>245 Clanton Road, Charlotte, NC 28217<\/p><p>&gt;&gt;&gt; COMING SOON &lt;&lt;&lt;<\/p>",
-            "page": ""
-          }
-        },
-        "template--16003968368818__de01d43b-9a5c-4f3a-8152-2aef90d66418-1674387201245907a2-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16003968368818__de01d43b-9a5c-4f3a-8152-2aef90d66418-1674387201245907a2-0",
-        "template--16003968368818__de01d43b-9a5c-4f3a-8152-2aef90d66418-1674387201245907a2-1",
-        "template--16003968368818__de01d43b-9a5c-4f3a-8152-2aef90d66418-1674387201245907a2-2",
-        "template--16003968368818__de01d43b-9a5c-4f3a-8152-2aef90d66418-1674387201245907a2-3"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Upcoming Candle Making Workshops",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "row",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -227,8 +220,8 @@
     "b78b0e13-71f2-4c32-8f1a-157a37a3f793",
     "2f80eb13-8bc9-4f0a-ba59-c75ba9e87b1e",
     "366800a9-42b1-4aca-8af5-cfaf467856ea",
+    "de01d43b-9a5c-4f3a-8152-2aef90d66418",
     "5e8c1150-be6a-40b8-8f71-743a0aa28ef6",
-    "product-grid",
-    "de01d43b-9a5c-4f3a-8152-2aef90d66418"
+    "product-grid"
   ]
 }
