@@ -115,23 +115,27 @@
         "padding_bottom": 52
       }
     },
-    "bcb68136-14b3-431b-ae1c-0b532b296b8e": {
-      "type": "rich-text",
+    "5e8c1150-be6a-40b8-8f71-743a0aa28ef6": {
+      "type": "newsletter",
       "blocks": {
-        "template--16003968368818__bcb68136-14b3-431b-ae1c-0b532b296b8e-16743867967b0af378-0": {
+        "template--16003968368818__5e8c1150-be6a-40b8-8f71-743a0aa28ef6-1674386973e3ec279b-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>Check back for more classes.  We are workiing on more. <\/strong><\/p>",
+            "heading": "Join our Candle Club to learn about upcoming workshops",
             "heading_size": "h2"
+          }
+        },
+        "template--16003968368818__5e8c1150-be6a-40b8-8f71-743a0aa28ef6-1674386973e3ec279b-2": {
+          "type": "email_form",
+          "settings": {
           }
         }
       },
       "block_order": [
-        "template--16003968368818__bcb68136-14b3-431b-ae1c-0b532b296b8e-16743867967b0af378-0"
+        "template--16003968368818__5e8c1150-be6a-40b8-8f71-743a0aa28ef6-1674386973e3ec279b-0",
+        "template--16003968368818__5e8c1150-be6a-40b8-8f71-743a0aa28ef6-1674386973e3ec279b-2"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
         "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 40,
@@ -162,7 +166,7 @@
     "b78b0e13-71f2-4c32-8f1a-157a37a3f793",
     "2f80eb13-8bc9-4f0a-ba59-c75ba9e87b1e",
     "366800a9-42b1-4aca-8af5-cfaf467856ea",
-    "bcb68136-14b3-431b-ae1c-0b532b296b8e",
+    "5e8c1150-be6a-40b8-8f71-743a0aa28ef6",
     "product-grid"
   ]
 }

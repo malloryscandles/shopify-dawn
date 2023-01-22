@@ -313,6 +313,40 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "e74b867d-5a5b-4e21-9ab7-8a3cd996506a": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15869844160690__e74b867d-5a5b-4e21-9ab7-8a3cd996506a-1674386973e3ec279b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join our Candle Club",
+            "heading_size": "h1"
+          }
+        },
+        "template--15869844160690__e74b867d-5a5b-4e21-9ab7-8a3cd996506a-1674386973e3ec279b-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "template--15869844160690__e74b867d-5a5b-4e21-9ab7-8a3cd996506a-1674386973e3ec279b-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--15869844160690__e74b867d-5a5b-4e21-9ab7-8a3cd996506a-1674386973e3ec279b-0",
+        "template--15869844160690__e74b867d-5a5b-4e21-9ab7-8a3cd996506a-1674386973e3ec279b-1",
+        "template--15869844160690__e74b867d-5a5b-4e21-9ab7-8a3cd996506a-1674386973e3ec279b-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -323,6 +357,7 @@
     "featured_collection",
     "19363387-344d-43df-ba8a-aaf9123d1f81",
     "1663900290a20ee6e7",
-    "16638996730be8b067"
+    "16638996730be8b067",
+    "e74b867d-5a5b-4e21-9ab7-8a3cd996506a"
   ]
 }
