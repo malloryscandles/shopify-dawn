@@ -236,7 +236,7 @@
           "type": "button",
           "settings": {
             "button_label": "Learn more...",
-            "button_link": "shopify:\/\/collections\/candle-making"
+            "button_link": "shopify:\/\/pages\/candle-making"
           }
         }
       },
