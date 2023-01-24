@@ -195,7 +195,7 @@
             "type": "text",
             "settings": {
               "heading": "",
-              "subtext": "<p>Mallory Candle Co<br\/>Charlotte, NC<\/p><p>(980) 320-0769<\/p><p><a href=\"\/pages\/contact-us\" title=\"Contact Us\">Email Us<\/a><\/p>"
+              "subtext": "<p>Mallory Candle Co<br\/>Charlotte, NC 28216<br\/>(980) 320-0769<\/p><p><a href=\"\/pages\/contact-us\" title=\"Contact Us\">Email<\/a>  Text<\/p>"
             }
           }
         },
