@@ -119,12 +119,21 @@
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
+        "3c337de0-bf41-473c-b1da-1db61abbf5fc": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column1": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/100-percent-guarantee.jpg",
-            "title": "Your Satisfaction is guaranteed. Period.",
-            "text": "",
+            "title": "",
+            "text": "<p>Satisfaction guaranteed.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -143,7 +152,18 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Candle-Making.jpg",
-            "title": "Handpoured in the USA.",
+            "title": "Hand poured in NC.",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "9a3e7513-df43-47cc-89dd-802d09e24425": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Delivery-Truck-Black-100px-web-2.jpg",
+            "title": "Free Shipping",
             "text": "",
             "link_label": "",
             "link": ""
@@ -151,16 +171,18 @@
         }
       },
       "block_order": [
+        "3c337de0-bf41-473c-b1da-1db61abbf5fc",
         "column1",
         "column2",
-        "column3"
+        "column3",
+        "9a3e7513-df43-47cc-89dd-802d09e24425"
       ],
       "settings": {
         "title": "",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "image_ratio": "square",
+        "columns_desktop": 5,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
@@ -168,8 +190,8 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 0
+        "padding_top": 4,
+        "padding_bottom": 4
       }
     },
     "featured_collection": {
