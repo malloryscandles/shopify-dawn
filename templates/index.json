@@ -55,67 +55,6 @@
         "padding_bottom": 36
       }
     },
-    "7b683fe9-585e-4abc-b775-a532234ab983": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15869844160690__7b683fe9-585e-4abc-b775-a532234ab983-1673579957dfc5116b-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>BUNDLE & SAVE 15%<\/p>",
-            "heading_size": "h2"
-          }
-        },
-        "template--15869844160690__7b683fe9-585e-4abc-b775-a532234ab983-1673579957dfc5116b-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Buy any 3 products and save 15%<br\/>Use code BUNDLE at checkout<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15869844160690__7b683fe9-585e-4abc-b775-a532234ab983-1673579957dfc5116b-0",
-        "template--15869844160690__7b683fe9-585e-4abc-b775-a532234ab983-1673579957dfc5116b-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": false,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "cfaafcba-1b08-4523-a7da-12ac9324eff9": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--15869844160690__cfaafcba-1b08-4523-a7da-12ac9324eff9-16684297021e3c850f-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>SHIPPING NOTICE<\/p>",
-            "heading_size": "h2"
-          }
-        },
-        "template--15869844160690__cfaafcba-1b08-4523-a7da-12ac9324eff9-16684297021e3c850f-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Happy Holidays<br\/>Orders will be shipped after December 26, 2023<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15869844160690__cfaafcba-1b08-4523-a7da-12ac9324eff9-16684297021e3c850f-0",
-        "template--15869844160690__cfaafcba-1b08-4523-a7da-12ac9324eff9-16684297021e3c850f-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -192,6 +131,68 @@
         "swipe_on_mobile": false,
         "padding_top": 4,
         "padding_bottom": 4
+      }
+    },
+    "7b683fe9-585e-4abc-b775-a532234ab983": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--15869844160690__7b683fe9-585e-4abc-b775-a532234ab983-1673579957dfc5116b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>BUNDLE & SAVE 15%<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--15869844160690__7b683fe9-585e-4abc-b775-a532234ab983-1673579957dfc5116b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Buy any 3 products and save 15%<br\/>Use code BUNDLE at checkout<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15869844160690__7b683fe9-585e-4abc-b775-a532234ab983-1673579957dfc5116b-0",
+        "template--15869844160690__7b683fe9-585e-4abc-b775-a532234ab983-1673579957dfc5116b-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "cfaafcba-1b08-4523-a7da-12ac9324eff9": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--15869844160690__cfaafcba-1b08-4523-a7da-12ac9324eff9-16684297021e3c850f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>SHIPPING NOTICE<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--15869844160690__cfaafcba-1b08-4523-a7da-12ac9324eff9-16684297021e3c850f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Happy Holidays<br\/>Orders will be shipped after December 26, 2023<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15869844160690__cfaafcba-1b08-4523-a7da-12ac9324eff9-16684297021e3c850f-0",
+        "template--15869844160690__cfaafcba-1b08-4523-a7da-12ac9324eff9-16684297021e3c850f-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "featured_collection": {
@@ -414,9 +415,9 @@
   "order": [
     "image_banner",
     "0ab25c42-5f34-4f7c-8ea8-0c473f3f30ca",
+    "multicolumn",
     "7b683fe9-585e-4abc-b775-a532234ab983",
     "cfaafcba-1b08-4523-a7da-12ac9324eff9",
-    "multicolumn",
     "featured_collection",
     "19363387-344d-43df-ba8a-aaf9123d1f81",
     "1663900290a20ee6e7",
