@@ -23,7 +23,7 @@
         "template--15869844160690__0ab25c42-5f34-4f7c-8ea8-0c473f3f30ca-16751075104ca0b6fe-2": {
           "type": "collection",
           "settings": {
-            "collection": "classic-candles"
+            "collection": "candles"
           }
         },
         "424d99f0-560d-4886-88fd-d3d9cb7bbebc": {
@@ -35,7 +35,7 @@
         "d06c15c2-12e5-4136-a88a-858d18b65b31": {
           "type": "collection",
           "settings": {
-            "collection": "diffuser-oils"
+            "collection": "aromatherapy-oils"
           }
         }
       },
