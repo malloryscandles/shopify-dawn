@@ -17,6 +17,36 @@
         "show_text_below": false
       }
     },
+    "bb27d5a0-7600-4d36-8219-966d46fef7b7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15869844160690__bb27d5a0-7600-4d36-8219-966d46fef7b7-167572015041f5e388-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>FREE SHIPPING<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--15869844160690__bb27d5a0-7600-4d36-8219-966d46fef7b7-167572015041f5e388-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use code FREESHIP at Checkout. Limited Time Only. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15869844160690__bb27d5a0-7600-4d36-8219-966d46fef7b7-167572015041f5e388-0",
+        "template--15869844160690__bb27d5a0-7600-4d36-8219-966d46fef7b7-167572015041f5e388-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": false,
+        "padding_top": 8,
+        "padding_bottom": 0
+      }
+    },
     "0ab25c42-5f34-4f7c-8ea8-0c473f3f30ca": {
       "type": "collage",
       "blocks": {
@@ -414,6 +444,7 @@
   },
   "order": [
     "image_banner",
+    "bb27d5a0-7600-4d36-8219-966d46fef7b7",
     "0ab25c42-5f34-4f7c-8ea8-0c473f3f30ca",
     "multicolumn",
     "7b683fe9-585e-4abc-b775-a532234ab983",
