@@ -30,7 +30,7 @@
         "template--15869844160690__bb27d5a0-7600-4d36-8219-966d46fef7b7-167572015041f5e388-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Use code FREESHIP at Checkout. Limited Time Only. <\/p>"
+            "text": "<p>Use code <strong>FREESHIP<\/strong> at Checkout. Limited Time Only.<br\/>Fundraiser purchases are not eligible for this promotion.<\/p>"
           }
         }
       },
