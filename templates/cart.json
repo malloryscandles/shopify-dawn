@@ -2,19 +2,18 @@
   "sections": {
     "e474f29c-17fa-4c63-8810-6f90bcd216f9": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--15869844717746__e474f29c-17fa-4c63-8810-6f90bcd216f9-1668100108dd1fe79c-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Shipping Notice<\/p>",
-            "heading_size": "h1"
+            "heading": "<p>SHIPPING NOTICE<\/p>",
+            "heading_size": "h2"
           }
         },
         "template--15869844717746__e474f29c-17fa-4c63-8810-6f90bcd216f9-1668100108dd1fe79c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Orders will be shipped after December 26, 2023.<\/p>"
+            "text": "<p>We are taking a little early Spring Break. Orders will resume shipping on Tuesday, March 14. <\/p>"
           }
         }
       },
@@ -25,10 +24,10 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "color_scheme": "accent-1",
+        "full_width": false,
+        "padding_top": 4,
+        "padding_bottom": 4
       }
     },
     "cart-items": {
