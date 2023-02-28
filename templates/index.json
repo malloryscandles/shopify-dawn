@@ -47,6 +47,36 @@
         "padding_bottom": 0
       }
     },
+    "cfaafcba-1b08-4523-a7da-12ac9324eff9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15869844160690__cfaafcba-1b08-4523-a7da-12ac9324eff9-16684297021e3c850f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>SHIPPING NOTICE<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--15869844160690__cfaafcba-1b08-4523-a7da-12ac9324eff9-16684297021e3c850f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are taking a little early Spring Break.  Orders will resume shipping on Tuesday, March 14. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15869844160690__cfaafcba-1b08-4523-a7da-12ac9324eff9-16684297021e3c850f-0",
+        "template--15869844160690__cfaafcba-1b08-4523-a7da-12ac9324eff9-16684297021e3c850f-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": false,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
     "0ab25c42-5f34-4f7c-8ea8-0c473f3f30ca": {
       "type": "collage",
       "blocks": {
@@ -190,37 +220,6 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": false,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "cfaafcba-1b08-4523-a7da-12ac9324eff9": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "template--15869844160690__cfaafcba-1b08-4523-a7da-12ac9324eff9-16684297021e3c850f-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>SHIPPING NOTICE<\/p>",
-            "heading_size": "h2"
-          }
-        },
-        "template--15869844160690__cfaafcba-1b08-4523-a7da-12ac9324eff9-16684297021e3c850f-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Happy Holidays<br\/>Orders will be shipped after December 26, 2023<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15869844160690__cfaafcba-1b08-4523-a7da-12ac9324eff9-16684297021e3c850f-0",
-        "template--15869844160690__cfaafcba-1b08-4523-a7da-12ac9324eff9-16684297021e3c850f-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-2",
-        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -445,10 +444,10 @@
   "order": [
     "image_banner",
     "bb27d5a0-7600-4d36-8219-966d46fef7b7",
+    "cfaafcba-1b08-4523-a7da-12ac9324eff9",
     "0ab25c42-5f34-4f7c-8ea8-0c473f3f30ca",
     "multicolumn",
     "7b683fe9-585e-4abc-b775-a532234ab983",
-    "cfaafcba-1b08-4523-a7da-12ac9324eff9",
     "featured_collection",
     "19363387-344d-43df-ba8a-aaf9123d1f81",
     "1663900290a20ee6e7",
